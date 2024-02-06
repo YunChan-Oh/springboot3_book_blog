@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-1 , article엔티티 롬복 사용 X" />
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-1 , article엔티티 롬복 사용 O">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,7 +104,7 @@
       <workItem from="1706888704453" duration="507000" />
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
-      <workItem from="1707133437974" duration="3665000" />
+      <workItem from="1707133437974" duration="7017000" />
     </task>
     <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
       <option name="closed" value="true" />
@@ -107,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707223406427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="블로그-1 , article엔티티 롬복 사용 O">
+      <option name="closed" value="true" />
+      <created>1707224133542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707224133542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="블로그-1 , article엔티티 롬복 사용 X" />
-    <option name="LAST_COMMIT_MESSAGE" value="블로그-1 , article엔티티 롬복 사용 X" />
+    <MESSAGE value="블로그-1 , article엔티티 롬복 사용 O" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-1 , article엔티티 롬복 사용 O" />
   </component>
 </project>
