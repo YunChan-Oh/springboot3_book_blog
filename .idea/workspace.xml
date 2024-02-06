@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-1 , article엔티티 롬복 사용 X" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,11 +97,24 @@
       <workItem from="1706888704453" duration="507000" />
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
-      <workItem from="1707133437974" duration="3328000" />
+      <workItem from="1707133437974" duration="3665000" />
     </task>
+    <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
+      <option name="closed" value="true" />
+      <created>1707223406427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707223406427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="블로그-1 , article엔티티 롬복 사용 X" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-1 , article엔티티 롬복 사용 X" />
   </component>
 </project>
