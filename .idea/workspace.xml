@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-1 , update 테스트 코드 완성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/example.html" afterDir="false" />
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-2 , 타임리프 테스트 코드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +256,7 @@
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
       <workItem from="1707133437974" duration="23177000" />
-      <workItem from="1707373749186" duration="2973000" />
+      <workItem from="1707373749186" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
       <option name="closed" value="true" />
@@ -336,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707315232867</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="블로그-2 , 타임리프 테스트 코드">
+      <option name="closed" value="true" />
+      <created>1707380665038</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707380665038</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +363,7 @@
     <MESSAGE value="블로그-1 , findbyid,delete 테스트 코드 완성" />
     <MESSAGE value="블로그-1 , update 로직 완성" />
     <MESSAGE value="블로그-1 , update 테스트 코드 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="블로그-1 , update 테스트 코드 완성" />
+    <MESSAGE value="블로그-2 , 타임리프 테스트 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-2 , 타임리프 테스트 코드" />
   </component>
 </project>
