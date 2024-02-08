@@ -19,6 +19,7 @@ dependencies { //프로젝트를 개발하며 필요한 기능의 의존성을 �
     runtimeOnly 'com.h2database:h2'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 test {
