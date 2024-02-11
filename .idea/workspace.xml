@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-3 , 스프링 시큐리티 그래이들 코드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-3 , 스프링 시큐리티 리포지토리 코드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,8 @@
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,37 +60,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.BlogApiControllerTest.deleteArticle.executor": "Run",
-    "Gradle.BlogApiControllerTest.executor": "Run",
-    "Gradle.BlogApiControllerTest.findAllArticles.executor": "Run",
-    "Gradle.BlogApiControllerTest.findArticle.executor": "Run",
-    "Gradle.BlogApiControllerTest.updateArticle.executor": "Run",
-    "Gradle.Build blog.executor": "Run",
-    "Gradle.blog 빌드.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/workspace/springboot3_book/blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.BlogApiControllerTest.deleteArticle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BlogApiControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BlogApiControllerTest.findAllArticles.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BlogApiControllerTest.findArticle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BlogApiControllerTest.updateArticle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build blog.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.blog 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootDeveloperApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/springboot3_book/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\springboot3_book\blog\src\main\resources" />
@@ -252,7 +252,7 @@
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
       <workItem from="1707133437974" duration="23177000" />
-      <workItem from="1707373749186" duration="23747000" />
+      <workItem from="1707373749186" duration="24685000" />
     </task>
     <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
       <option name="closed" value="true" />
@@ -406,7 +406,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707641137319</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="블로그-3 , 스프링 시큐리티 그래이들 코드">
+      <option name="closed" value="true" />
+      <created>1707641170779</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707641170779</updated>
+    </task>
+    <task id="LOCAL-00021" summary="블로그-3 , 스프링 시큐리티 그래이들 코드">
+      <option name="closed" value="true" />
+      <created>1707641203958</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707641203958</updated>
+    </task>
+    <task id="LOCAL-00022" summary="블로그-3 , 스프링 시큐리티 리포지토리 코드">
+      <option name="closed" value="true" />
+      <created>1707641534898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707641534898</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,9 +464,10 @@
     <MESSAGE value="블로그-2 , 타임리프 블로그 글 조회 코드" />
     <MESSAGE value="블로그-2 , 타임리프 블로그 글 삭제 코드" />
     <MESSAGE value="블로그-2 , 타임리프 블로그 글 생성/수정 코드" />
-    <MESSAGE value="블로그-2 , 스프링 시큐리티 그래이들 코드" />
     <MESSAGE value="블로그-3 , 스프링 시큐리티 유저 엔티티 코드" />
+    <MESSAGE value="블로그-2 , 스프링 시큐리티 그래이들 코드" />
     <MESSAGE value="블로그-3 , 스프링 시큐리티 그래이들 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="블로그-3 , 스프링 시큐리티 그래이들 코드" />
+    <MESSAGE value="블로그-3 , 스프링 시큐리티 리포지토리 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-3 , 스프링 시큐리티 리포지토리 코드" />
   </component>
 </project>
