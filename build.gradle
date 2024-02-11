@@ -20,6 +20,9 @@ dependencies { //프로젝트를 개발하며 필요한 기능의 의존성을 �
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-security' //스프링 시큐리티를 사용하기 위한 스타터
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6' //타임리프에서 스프링 시큐리티 사용하기 위함
+    testImplementation 'org.springframework.security:spring-security-test' //스프링 시큐리티 테스트하기 위함
 }
 
 test {
