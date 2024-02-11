@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-2 , 타임리프 블로그 글 조회 코드">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/article.js" afterDir="false" />
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-2 , 타임리프 블로그 글 삭제 코드">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/controller/BlogViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/dto/ArticleViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +50,8 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -253,7 +259,7 @@
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
       <workItem from="1707133437974" duration="23177000" />
-      <workItem from="1707373749186" duration="12379000" />
+      <workItem from="1707373749186" duration="20391000" />
     </task>
     <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
       <option name="closed" value="true" />
@@ -367,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707624161875</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="블로그-2 , 타임리프 블로그 글 삭제 코드">
+      <option name="closed" value="true" />
+      <created>1707625626108</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707625626108</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +413,7 @@
     <MESSAGE value="블로그-2 , 블로그 타임리프 블로그 글 목록 뷰 테스트 코드" />
     <MESSAGE value="블로그-2 , 엔티티 생성,수정 시간 자동 업로드 코드" />
     <MESSAGE value="블로그-2 , 타임리프 블로그 글 조회 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="블로그-2 , 타임리프 블로그 글 조회 코드" />
+    <MESSAGE value="블로그-2 , 타임리프 블로그 글 삭제 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-2 , 타임리프 블로그 글 삭제 코드" />
   </component>
 </project>

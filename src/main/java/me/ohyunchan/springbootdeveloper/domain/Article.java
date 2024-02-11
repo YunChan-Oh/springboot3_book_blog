@@ -7,13 +7,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Article {
+@EntityListeners(AuditingEntityListener.class)
+public class Article{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //1씩 증가
     @Column(name = "id", updatable = false)
