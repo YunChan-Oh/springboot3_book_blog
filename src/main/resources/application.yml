@@ -11,5 +11,8 @@ spring:
   h2: #h2 콘솔 활성화
     console:
       enabled: true
+jwt:
+  issuer: oyunchan9@gmail.com
+  secret_key: study-springboot
 server:
   port: 8081

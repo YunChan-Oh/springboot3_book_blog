@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-3 , 스프링 시큐리티 템플릿엔진 코드" />
+    <list default="true" id="92f6fa52-b5d0-47b7-9be5-5ee6a9a90bac" name="Changes" comment="블로그-3 , 스프링 시큐리티 로그아웃 코드">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/ohyunchan/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +47,8 @@
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -250,7 +256,7 @@
       <workItem from="1706889255453" duration="314000" />
       <workItem from="1706889610692" duration="570000" />
       <workItem from="1707133437974" duration="23177000" />
-      <workItem from="1707373749186" duration="29541000" />
+      <workItem from="1707373749186" duration="35659000" />
     </task>
     <task id="LOCAL-00001" summary="블로그-1 , article엔티티 롬복 사용 X">
       <option name="closed" value="true" />
@@ -476,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707652970149</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="블로그-3 , 스프링 시큐리티 로그아웃 코드">
+      <option name="closed" value="true" />
+      <created>1707653416406</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707653416406</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="블로그-1 , article엔티티 롬복 사용 X" />
     <MESSAGE value="블로그-1 , article엔티티 롬복 사용 O" />
     <MESSAGE value="블로그-1 , save 로직 완성" />
     <MESSAGE value="블로그-1 , save 테스트 코드 완성" />
@@ -519,6 +532,7 @@
     <MESSAGE value="블로그-3 , 스프링 시큐리티 서비스 코드" />
     <MESSAGE value="블로그-3 , 스프링 시큐리티 DTO 코드" />
     <MESSAGE value="블로그-3 , 스프링 시큐리티 템플릿엔진 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="블로그-3 , 스프링 시큐리티 템플릿엔진 코드" />
+    <MESSAGE value="블로그-3 , 스프링 시큐리티 로그아웃 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="블로그-3 , 스프링 시큐리티 로그아웃 코드" />
   </component>
 </project>

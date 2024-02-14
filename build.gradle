@@ -23,6 +23,10 @@ dependencies { //프로젝트를 개발하며 필요한 기능의 의존성을 �
     implementation 'org.springframework.boot:spring-boot-starter-security' //스프링 시큐리티를 사용하기 위한 스타터
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6' //타임리프에서 스프링 시큐리티 사용하기 위함
     testImplementation 'org.springframework.security:spring-security-test' //스프링 시큐리티 테스트하기 위함
+    testAnnotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.projectlombok:lombok'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1' //자바 JWT 라이브러리
+    implementation 'javax.xml.bind:jaxb-api:2.3.1' //XML 문서와 Java 객체 간 매핑 자동화
 }
 
 test {
